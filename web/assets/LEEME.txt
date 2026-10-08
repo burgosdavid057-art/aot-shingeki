@@ -1,0 +1,30 @@
+MODELOS 3D DEL JUEGO
+====================
+
+Estos .glb se cargan SOLO cuando una mision los necesita (carga perezosa
+con cache), para no reventar la memoria del navegador.
+
+USADOS POR EL JUEGO:
+  house.glb / house2.glb / house4.glb  -> casas de pueblos y defensas
+  gatehouse.glb                        -> caseta de la puerta en la muralla
+  city1.glb                            -> panorama del distrito tras la muralla
+  blades.glb                           -> hojas del soldado (cuerpo procedural)
+  skin_mikasa / annie / historia / reiner / zeke .glb -> skins de personaje
+                                          (se desbloquean en la Armeria)
+  titan_hembra.glb     -> TITAN HEMBRA (especial)
+  titan_bestia.glb     -> TITAN BESTIA (especial)
+  titan_mandibula.glb  -> TITAN MANDIBULA (especial)
+  titan_anormal.glb    -> los Anormales (titan sonriente)
+  titan_grande.glb     -> titanes de 15 m
+  titan_colosal.glb    -> aparicion escenica en la mision final
+
+SIN USAR (disponibles para futuras mecanicas):
+  titan_cart.glb  -> Titan Carreta (candidato a 5o especial)
+  city2.glb       -> distrito alternativo (78MB, muy pesado)
+  house3.glb      -> casa medieval small (75MB!, demasiado pesada para usarla)
+
+Si un modelo no carga (formato raro, compresion Draco, etc.) el juego usa
+su modelo procedural propio automaticamente y lo avisa en la consola (F12).
+
+Creditos: modelos descargados de Sketchfab por el usuario; revisa la licencia
+de cada autor (la mayoria CC-BY: dar credito al publicar).
